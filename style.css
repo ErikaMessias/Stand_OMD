@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     font-family: Roboto, -apple-system, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .header {
@@ -18,24 +18,26 @@ body {
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.logosDivider{
+
+.logosDivider {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.boschLogo{
+
+.boschLogo {
     width: 120px;
     margin-left: 10px;
     margin-top: 15px;
 }
 
-.supergrafic{
+.supergrafic {
     position: absolute;
     height: 10px;
     width: 100%;
 }
 
-.content1{
+.content1 {
     background: linear-gradient(#1f4d78, #3579bb);
     width: auto;
     height: auto;
@@ -45,51 +47,50 @@ body {
     padding: 20px 0px 20px 0;
 }
 
-.gsLogo{
+.gsLogo {
     width: 30px;
     margin-right: 20px;
     margin-top: 15px;
 }
 
-.leftItens{
+.leftItens {
     color: white;
     padding: 20px;
     width: 50dvw;
 }
 
-
-.leftItens > h1{
+.leftItens > h1 {
     margin: 10px 0 10px 0;
     font-size: 80px;
 }
 
-.leftItens > h2{
+.leftItens > h2 {
     font-size: 30px;
 }
-.rightItens{
+
+.rightItens {
     width: 30dvw;
-    
 }
 
-.rightItens > img{
-    
+.rightItens > img {
     max-height: 350px;
     margin-top: 20px;
-    
 }
-.content2{
+
+.content2 {
     width: auto;
     height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.content2 > iframe{
+
+.content2 > iframe {
     width: 90dvw;
     height: 80dvh;
 }
 
-.content3{
+.content3 {
     background: #1f4d78;
     color: white;
     width: auto;
@@ -98,10 +99,9 @@ body {
     flex-direction: row;
     justify-content: center;
     padding: 20px 0px 20px 0;
-
 }
 
-.content4{
+.content4 {
     color: white;
     width: auto;
     height: auto;
@@ -112,9 +112,9 @@ body {
     background-color: rgba(235, 235, 235, 0.623);
 }
 
-.content4 > .card{
+.content4 > .card {
     height: auto;
-    width:30%;
+    width: 30%;
     padding: 40px 60px 20px 60px;
     color: black;
     background-color: white;
@@ -123,38 +123,35 @@ body {
     align-items: center;
 }
 
-.card1{
-    
+.card1 {
     border-top: 5px solid rgb(54, 96, 211);
-
 }
 
-.card2{
-    
+.card2 {
     border-top: 5px solid rgb(47, 199, 67);
-
 }
-.content4 > .card > h1{
+
+.content4 > .card > h1 {
     width: 100%;
     text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
 }
-.content4 > .card > div> h2{
+
+.content4 > .card > div > h2 {
     text-align: center;
     margin-top: 10px;
 }
 
-.content4 > .card1 > div> h2 > span{
+.content4 > .card1 > div > h2 > span {
     color: rgb(54, 96, 211);
 }
 
-
-.content4 > .card2 > div> h2 > span{
+.content4 > .card2 > div > h2 > span {
     color: rgb(47, 199, 67);
 }
 
-.content5{
+.content5 {
     background: #1f4d78;
     color: white;
     width: auto;
@@ -163,17 +160,14 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px 0px 20px 0;
-
 }
 
-.content5 > h2{
+.content5 > h2 {
     width: 35%;
     text-align: center;
 }
 
-
-
-.content6{
+.content6 {
     color: white;
     width: auto;
     height: auto;
@@ -181,13 +175,13 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px 0px 20px 0px;
-
     background-color: rgba(235, 235, 235, 0.623);
     padding-bottom: 100px;
 }
-.content6 > .card{
+
+.content6 > .card {
     height: auto;
-    width:30%;
+    width: 30%;
     padding: 40px 60px 20px 60px;
     color: black;
     background-color: white;
@@ -195,39 +189,36 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.content6> .card > h1{
+
+.content6 > .card > h1 {
     width: 100%;
     text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
 }
-.content6> .card > div> h2{
+
+.content6 > .card > div > h2 {
     text-align: center;
     margin-top: 10px;
 }
 
-.content6> .card3 > div> h2 > span{
+.content6 > .card3 > div > h2 > span {
     color: rgb(199, 51, 199);
 }
 
-
-.content6> .card4 > div> h2 > span{
+.content6 > .card4 > div > h2 > span {
     color: rgb(199, 51, 199);
 }
 
-.card3{
-    
+.card3 {
     border-top: 5px solid rgb(199, 51, 199);
-
 }
 
-.card4{
-    
+.card4 {
     border-top: 5px solid rgb(199, 51, 199);
-
 }
 
-.content7{
+.content7 {
     background-color: white;
     width: auto;
     height: 200px;
@@ -236,40 +227,36 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 0px 20px 0px;
-
 }
 
-.content7 > h1{
+.content7 > h1 {
     color: rgb(54, 96, 211);
     font-size: 50px;
 }
 
-
-.content7 > h2{
+.content7 > h2 {
     font-size: 30px;
 }
 
-
-.content8{
+.content8 {
     display: flex;
-
-    flex-direction:c;
-    justify-content:end;
+    flex-direction: column; /* Alterado para coluna para responsividade */
+    justify-content: end;
 }
 
-.boschLogo2{
+.boschLogo2 {
     width: 120px;
     margin: 0 20px 20px 0;
 }
 
-.supergrafic2{
+.supergrafic2 {
     height: 10px;
     width: 100%;
     position: absolute;
     margin-top: 60px;
 }
 
-.content9{
+.content9 {
     background: white;
     color: #1f4d78;
     width: auto;
@@ -281,8 +268,7 @@ body {
     font-size: 50px;
 }
 
-
-.content10{
+.content10 {
     color: white;
     width: auto;
     height: auto;
@@ -290,28 +276,24 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px 0px 20px 0px;
-
     background-color: rgba(235, 235, 235, 0.623);
     padding-bottom: 10px;
 }
 
-.content10 > .table{
+.content10 > .table {
     height: auto;
-    /* width: 90%; */
     padding: 10px 3% 10px 3%;
     color: black;
-    /* background-color: rgb(255, 255, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 table {
-    border-collapse: separate; 
-    border-spacing: 10px; 
+    border-collapse: separate;
+    border-spacing: 10px;
     width: 100%;
 }
-
 
 th, td {
     border: 1px solid rgb(54, 96, 211);
@@ -322,8 +304,8 @@ th, td {
 }
 
 .vertical-text {
-    width: 50px; 
-    writing-mode: vertical-rl; 
+    width: 50px;
+    writing-mode: vertical-rl;
     text-align: center;
     line-height: 1.5;
 }
@@ -333,35 +315,30 @@ th, td {
 }
 
 .last-column {
-    background-color: white; 
+    background-color: white;
 }
 
-.content11{
+.content11 {
     color: white;
-    /* width: 100dvw; */
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px 0px 20px 0px;
-
     background-color: rgba(235, 235, 235, 0.623);
     padding-bottom: 30px;
 }
 
-.content11 > .table{
+.content11 > .table {
     height: auto;
-    /* width: 90%; */
     padding: 10px 3% 20px 3%;
     color: black;
-    /* background-color: rgb(255, 255, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-.content12{
+.content12 {
     background: linear-gradient(#1f4d78, #101213);
     color: #ffffff;
     padding: 20px 20px 20px 20px;
@@ -382,7 +359,7 @@ th, td {
 }
 
 .content13-item img {
-    width: 150px; 
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
@@ -390,11 +367,229 @@ th, td {
 
 .content13-item {
     text-align: center;
-} 
-
+}
 
 .content13-item p {
     margin: 10px 0 0;
     font-size: 16px;
     color: #333;
+}
+
+/* Media Queries para Responsividade */
+
+@media (max-width: 768px) {
+    .content1 {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .leftItens, .rightItens {
+        width: 100%;
+    }
+
+    .leftItens > h1 {
+        font-size: 40px;
+    }
+
+    .leftItens > h2 {
+        font-size: 20px;
+    }
+
+    .rightItens > img {
+        max-height: 250px;
+    }
+
+    .content4, .content5, .content6, .content11 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content4 > .card, .content6 > .card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .content4 > .card > h1, .content6 > .card > h1 {
+        font-size: 30px;
+    }
+
+    .content4 > .card > div > h2, .content6 > .card > div > h2 {
+        font-size: 20px;
+    }
+
+    .content10 > .table {
+        width: 100%;
+        padding: 10px;
+    }
+
+    th, td {
+        font-size: 18px;
+    }
+
+    .content13-item img {
+        width: 100px;
+        height: 100px;
+    }
+    .content13-item p {
+        font-size: 10px;
+    }
+
+    .content9 {
+        font-size: 30px;
+        padding: 20px 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content9 > h1 {
+        font-size: 40px;
+    }
+
+    .content9 > h2 {
+        font-size: 24px;
+    }
+
+    .content9 img {
+        width: 80%;
+        max-width: 400px;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .content12 {
+        font-size: 14px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .content12 > h2 {
+        font-size: 16px;
+    }
+
+    .content12 > p {
+        font-size: 20px;
+    }
+
+    .content12 img {
+        width: 80%;
+        max-width: 350px;
+        height: auto;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 60px;
+    }
+
+    .boschLogo {
+        width: 80px;
+        margin: 10px;
+    }
+    .gsLogo {
+        width: 23px;
+        margin: 10px;
+    }
+
+    .content1 {
+        padding: 5px;
+    }
+
+    .leftItens > h1 {
+        font-size: 30px;
+    }
+
+    .leftItens > h2 {
+        font-size: 18px;
+    }
+
+    .rightItens > img {
+        max-height: 200px;
+    }
+
+    .content4 > .card, .content6 > .card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content4 > .card > h1, .content6 > .card > h1 {
+        font-size: 25px;
+    }
+
+    .content4 > .card > div > h2, .content6 > .card > div > h2 {
+        font-size: 16px;
+    }
+
+    .content10 > .table {
+        width: 100%;
+        padding: 5px;
+    }
+
+    th, td {
+        font-size: 16px;
+    }
+
+    .content13-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .content9 {
+        font-size: 20px;
+        padding: 15px 5px;
+    }
+
+    .content9 > h1 {
+        font-size: 30px;
+    }
+
+    .content9 > h2 {
+        font-size: 20px;
+    }
+
+    .content9 img {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    .content12 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .content12 > h1 {
+        font-size: 30px;
+    }
+
+    .content12 > p {
+        font-size: 18px;
+    }
+
+    .content12 img {
+        width: 90%;
+        max-width: 250px;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    .content7 {
+        padding: 15px; 
+    }
+
+    .content7 > h1 {
+        font-size: 30px; 
+    }
+
+    .content7 > h2 {
+        font-size: 24px; 
+    }
+    .content7 img {
+        width: 90%;
+        max-width: 250px;
+        height: auto;
+        margin: 5px 0;
+    }
 }
