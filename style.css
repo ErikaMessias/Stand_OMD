@@ -388,7 +388,7 @@ th, td {
     }
 
     .leftItens > h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .leftItens > h2 {
@@ -529,6 +529,7 @@ th, td {
     th, td {
         font-size: 16px;
     }
+    
 
     .content13-item img {
         width: 80px;
@@ -591,5 +592,57 @@ th, td {
         max-width: 250px;
         height: auto;
         margin: 5px 0;
+    }
+    table {
+        display: block;
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+    thead {
+        display: none; /* Oculta o cabeçalho da tabela */
+    }
+
+    tbody {
+        display: block;
+    }
+
+    tr {
+        display: block;
+        margin-bottom: 10px; /* Espaço entre linhas de blocos */
+    }
+
+    td {
+        display: block;
+        text-align: left; /* Alinha o texto à esquerda */
+        position: relative;
+        padding: 10px;
+        border: none; /* Remove a borda da célula para uma melhor apresentação em bloco */
+    }
+
+    td::before {
+        content: attr(data-label); /* Usa data-label para mostrar o nome da coluna */
+        position: absolute;
+        left: 0;
+        width: 100%;
+        padding: 0 10px;
+        font-weight: bold;
+        background: rgb(54, 96, 211);
+        color: white;
+        text-align: left;
+        top: 0;
+        white-space: nowrap; /* Garante que o texto não quebre */
+    }
+
+    /* Especificamente para a primeira coluna */
+    td:first-of-type::before {
+        display: none; /* Remove o label para a primeira coluna */
+    }
+
+    .vertical-text {
+        font-size: 8px; /* Ajusta o tamanho da fonte do texto vertical */
+        /* Remove rotação para exibição horizontal */
+        writing-mode: horizontal-tb; /* Define a orientação do texto para horizontal */
     }
 }
