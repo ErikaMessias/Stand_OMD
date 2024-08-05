@@ -601,7 +601,7 @@ th, td {
     }
 
     thead {
-        display: none; /* Oculta o cabeçalho da tabela */
+        display: none; 
     }
 
     tbody {
@@ -610,19 +610,19 @@ th, td {
 
     tr {
         display: block;
-        margin-bottom: 10px; /* Espaço entre linhas de blocos */
+        margin-bottom: 10px; 
     }
 
     td {
         display: block;
-        text-align: left; /* Alinha o texto à esquerda */
+        text-align: left; 
         position: relative;
         padding: 10px;
-        border: none; /* Remove a borda da célula para uma melhor apresentação em bloco */
+        border: none; 
     }
 
     td::before {
-        content: attr(data-label); /* Usa data-label para mostrar o nome da coluna */
+        content: attr(data-label); 
         position: absolute;
         left: 0;
         width: 100%;
@@ -632,17 +632,17 @@ th, td {
         color: white;
         text-align: left;
         top: 0;
-        white-space: nowrap; /* Garante que o texto não quebre */
+        white-space: nowrap; 
     }
 
-    /* Especificamente para a primeira coluna */
+
     td:first-of-type::before {
-        display: none; /* Remove o label para a primeira coluna */
+        display: none; 
     }
 
     .vertical-text {
-        font-size: 8px; /* Ajusta o tamanho da fonte do texto vertical */
-        /* Remove rotação para exibição horizontal */
-        writing-mode: horizontal-tb; /* Define a orientação do texto para horizontal */
+        font-size: 8px; 
+
+        writing-mode: horizontal-tb; 
     }
 }
