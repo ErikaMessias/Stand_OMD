@@ -484,7 +484,7 @@ th, td {
     }
 
     .boschLogo {
-        width: 80px;
+        width: 90px;
         margin: 10px;
     }
     .gsLogo {
@@ -536,6 +536,17 @@ th, td {
         height: 80px;
     }
 
+    .content3 {
+        font-size: 14px;
+        padding: 15px 5px;
+    }
+
+    .content5 {
+        font-size: 14px;
+        padding: 15px 5px;
+    }
+
+
     .content9 {
         font-size: 20px;
         padding: 15px 5px;
@@ -561,19 +572,8 @@ th, td {
         padding: 10px;
     }
 
-    .content12 > h1 {
-        font-size: 30px;
-    }
-
-    .content12 > p {
-        font-size: 18px;
-    }
-
-    .content12 img {
-        width: 90%;
-        max-width: 250px;
-        height: auto;
-        margin: 5px 0;
+    .content12 > h2 {
+        font-size: 15px;
     }
 
     .content7 {
@@ -581,11 +581,11 @@ th, td {
     }
 
     .content7 > h1 {
-        font-size: 30px; 
+        font-size: 26px; 
     }
 
     .content7 > h2 {
-        font-size: 24px; 
+        font-size: 22px; 
     }
     .content7 img {
         width: 90%;
@@ -611,6 +611,7 @@ th, td {
     tr {
         display: block;
         margin-bottom: 10px; 
+        background: rgb(255, 255, 255);
     }
 
     td {
@@ -642,7 +643,7 @@ th, td {
 
     .vertical-text {
         font-size: 8px; 
-
         writing-mode: horizontal-tb; 
+        
     }
 }
