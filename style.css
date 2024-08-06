@@ -288,7 +288,9 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
+.pergunta{
+    color: white;
+}
 table {
     border-collapse: separate;
     border-spacing: 10px;
