@@ -236,12 +236,28 @@
         function googleTranslateElementInit() {
         new google.translate.TranslateElement({
             pageLanguage: 'pt',
-            includedLanguages: 'en,es',   // só inglês e espanhol
-            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            includedLanguages: 'en,es,pt'
         }, 'google_translate_element');
         }
+
+        (function waitForGoogleTranslate() {
+            console.log(1)
+        const select = document.querySelector('.goog-te-combo');
+        if (select) {
+            setTimeout(() => {
+            const shortLang = (navigator.language || navigator.userLanguage).split('-')[0];
+            console.log(shortLang)
+            select.value = shortLang;
+            select.dispatchEvent(new Event('change'));
+
+            }, 3000);
+            
+        } else {
+            setTimeout(waitForGoogleTranslate, 100); // tenta de novo em 100ms
+        }
+        })();
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 <script>
